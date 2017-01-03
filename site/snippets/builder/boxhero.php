@@ -1,0 +1,17 @@
+
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <tr><td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" height="400px"  style="margin-bottom:20px; background-image: url('<?= $page->image($data->picture())->url() ?>'); background-repeat: no-repeat; background-size:cover; border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tr><td align="center" valign="middle" class="textContent" style="padding:20px;">
+
+                        <h1 style="color:<?= $data->text_color() ?>; text-align: center;"> <?= $data->text() ?> </h1></a>
+                        <?php if ($data->link_url()->isNotEmpty()): ?>
+                        <a href="<?= $data->link_url() ?>" style="color:<?= $data->text_color() ?>; text-decoration:none;">
+                        <h4 style="color:<?= $data->text_color() ?>; text-decoration:none; font-weight:normal; font-size:12px; text-transform:uppercase; line-height:20px; text-align: center;">
+                        <?= $data->link_text()->h() ?>&nbsp;&rarr;</h4></a>
+                        <?php endif ?>
+
+                    </td></tr>
+                    </table>
+                </td></tr>
+                </table>
