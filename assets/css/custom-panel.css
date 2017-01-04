@@ -1,0 +1,28 @@
+/* Builder Interface in Panel */
+.builder-add-buttons { margin: 2rem 0; }
+.builder-add-buttons .btn-rounded {
+    font-weight: 400;
+    font-size: .85em;
+    letter-spacing: .05em;
+    color: #777;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 1px solid #999;
+    padding: .4em .6em;
+  }
+.builder-add-buttons .btn-rounded:focus,
+.builder-add-buttons .btn-rounded:hover {
+      background: #999;
+      color: #fff;
+  }
+
+/* Builder Modules */
+.flexibleContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+.flexibleImage{height:auto;}
+.bottomShim{padding-bottom:20px;}
+.topShim{padding-top:20px;}
+.bannerShim{padding-top:20px;padding-bottom:20px;}
+.imageContent, .imageContentLast{padding-bottom:20px;}
+.nestedContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+.textContent, .textContentLast{color:#404040; font-family:Helvetica; font-size:16px; line-height:125%; text-align:Left; padding-bottom:20px;}
+.textContent a, .textContentLast a{color:#2c9ab7; text-decoration:underline;}
