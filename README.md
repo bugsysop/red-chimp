@@ -9,7 +9,7 @@ The purpose of **Red Chimp** is to create an usable interface to configure and c
 
 ## License
 
-- Red Chimp – The MIT License (MIT)
+- Red Chimp – [The MIT License (MIT)](doc/license.txt)
 - Email Blueprints – [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/)
 - Builder Field  – The MIT License (MIT)
 - Kirby Color List – The MIT License (MIT)
