@@ -38,13 +38,13 @@ fields:
     type:                   textarea
     icon:                   font
 
+  # -----
   letter_layout:
     label:
       en:                   Design
       fr:                   Design
     type:                   headline
 
-  # -----
   letter_logo:
     label:
       en:                   Logo

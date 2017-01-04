@@ -12,7 +12,15 @@ fields:
       en:                   Title
       fr:                   Titre
     type:                   text
-    width:                  1/2
+    width:                  2/5
+
+  letter_number:
+    label:
+      en:                   Number
+      fr:                   Numéro
+    type:                   text
+    placeholder:            N°1
+    width:                  1/5
 
   letter_date:
     label:
@@ -20,7 +28,7 @@ fields:
       fr:                   Date de publication
     type:                   date
     format:                 DD/MM/YYYY
-    width:                  1/2
+    width:                  2/5
 
   builder:
     label:
@@ -30,6 +38,7 @@ fields:
 
     fieldsets:
 
+      # -----
       box1c:
         label:              Box-1C
         snippet:            builder/box1c
@@ -46,7 +55,7 @@ fields:
             type:           text
             placeholder:
               en:           Read more
-              fr:           Lire sur le site
+              fr:           Lire la suite
             icon:           font
             width:          1/2
           link_url:
@@ -57,6 +66,7 @@ fields:
             placeholder:    https://…
             width:          1/2
 
+      # -----
       box1cimg:
         label:              Box-1C+IMG
         snippet:            builder/box1cimg
@@ -76,7 +86,7 @@ fields:
             type:           text
             placeholder:
               en:           Read more
-              fr:           Lire sur le site
+              fr:           Lire la suite
             icon:           font
             width:          1/2
           link_url:
@@ -87,6 +97,7 @@ fields:
             placeholder:    https://…
             width:          1/2
 
+      # -----
       box2c:
         label:              Box-2C
         snippet:            builder/box2c
@@ -108,7 +119,7 @@ fields:
             type:           text
             placeholder:
               en:           Read more
-              fr:           Lire sur le site
+              fr:           Lire la suite
             icon:           font
             width:          1/2
           link_text_c2:
@@ -118,7 +129,7 @@ fields:
             type:           text
             placeholder:
               en:           Read more
-              fr:           Lire sur le site
+              fr:           Lire la suite
             icon:           font
             width:          1/2
           link_url_c1:
@@ -136,7 +147,7 @@ fields:
             placeholder:    https://
             width:          1/2
 
-
+      # -----
       box2cimg:
         label:              Box-2C+IMG
         snippet:            builder/box2cimg
@@ -168,7 +179,7 @@ fields:
               en:           Link label
               fr:           Texte du lien
             type:           text
-            placeholder:    Lire sur le site
+            placeholder:    Lire la suite
             icon:           font
             width:          1/2
           link_url_c1:
@@ -186,6 +197,7 @@ fields:
             placeholder:    https://
             width:          1/2
 
+      # -----
       boxtitle:
         label:              Box Titre
         snippet:            builder/boxtitle
@@ -220,6 +232,7 @@ fields:
               - "#353a62"
             width:          1/2
 
+      # -----
       boxhero:
         label:              Box Hero
         snippet:            builder/boxhero
