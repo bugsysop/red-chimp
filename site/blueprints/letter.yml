@@ -1,0 +1,268 @@
+title:
+  en:                       Newsletter
+  fr:                       Lettre
+pages:                      false
+files:
+  type:                     image
+
+fields:
+
+  title:
+    label:
+      en:                   Title
+      fr:                   Titre
+    type:                   text
+    width:                  1/2
+
+  letter_date:
+    label:
+      en:                   Publication date
+      fr:                   Date de publication
+    type:                   date
+    format:                 DD/MM/YYYY
+    width:                  1/2
+
+  builder:
+    label:
+      en:                   Modules
+      fr:                   Modules
+    type:                   builder
+
+    fieldsets:
+
+      box1c:
+        label:              Box-1C
+        snippet:            builder/box1c
+        fields:
+          text:
+            label:
+              en:           Text
+              fr:           Texte
+            type:           textarea
+          link_text:
+            label:
+              en:           Link label
+              fr:           Texte du lien
+            type:           text
+            placeholder:
+              en:           Read more
+              fr:           Lire sur le site
+            icon:           font
+            width:          1/2
+          link_url:
+            label:
+              en:           Link URL
+              fr:           URL du lien
+            type:           url
+            placeholder:    https://…
+            width:          1/2
+
+      box1cimg:
+        label:              Box-1C+IMG
+        snippet:            builder/box1cimg
+        fields:
+          img:
+            label:
+              en:           Image
+              fr:           Image
+            type:           image
+          text:
+            label:
+              en:           Text
+              fr:           Texte
+            type:           textarea
+          link_text:
+            label:          Texte du lien
+            type:           text
+            placeholder:
+              en:           Read more
+              fr:           Lire sur le site
+            icon:           font
+            width:          1/2
+          link_url:
+            label:
+              en:           Link URL
+              fr:           URL du lien
+            type:           url
+            placeholder:    https://…
+            width:          1/2
+
+      box2c:
+        label:              Box-2C
+        snippet:            builder/box2c
+        fields:
+          text_c1:
+            label:          Colonne 1
+            type:           textarea
+            icon:           font
+            width:          1/2
+          text_c2:
+            label:          Colonne 2
+            type:           textarea
+            icon:           font
+            width:          1/2
+          link_text_c1:
+            label:
+              en:           Link label
+              fr:           Texte du lien
+            type:           text
+            placeholder:
+              en:           Read more
+              fr:           Lire sur le site
+            icon:           font
+            width:          1/2
+          link_text_c2:
+            label:
+              en:           Link label
+              fr:           Texte du lien
+            type:           text
+            placeholder:
+              en:           Read more
+              fr:           Lire sur le site
+            icon:           font
+            width:          1/2
+          link_url_c1:
+            label:
+              en:           Link URL
+              fr:           URL du lien
+            type:           url
+            placeholder:    https://…
+            width: 1/2
+          link_url_c2:
+            label:
+              en:           Link URL
+              fr:           URL du lien
+            type:           url
+            placeholder:    https://
+            width:          1/2
+
+
+      box2cimg:
+        label:              Box-2C+IMG
+        snippet:            builder/box2cimg
+        fields:
+          img_c1:
+            label:          Colonne 1
+            type:           image
+            width:          1/2
+          img_c2:
+            label:          Colonne 2
+            type:           image
+            width:          1/2
+          text_c1:
+            type:           textarea
+            width:          1/2
+          text_c2:
+            type:           textarea
+            width:          1/2
+          link_text_c1:
+            label:
+              en:           Link label
+              fr:           Texte du lien
+            type:           text
+            placeholder:    w
+            icon:           font
+            width:          1/2
+          link_text_c2:
+            label:
+              en:           Link label
+              fr:           Texte du lien
+            type:           text
+            placeholder:    Lire sur le site
+            icon:           font
+            width:          1/2
+          link_url_c1:
+            label:
+              en:           Link URL
+              fr:           URL du lien
+            type:           url
+            placeholder:    https://…
+            width:          1/2
+          link_url_c2:
+            label:
+              en:           Link URL
+              fr:           URL du lien
+            type:           url
+            placeholder:    https://
+            width:          1/2
+
+      boxtitle:
+        label:              Box Titre
+        snippet:            builder/boxtitle
+        fields:
+          text:
+            label:
+              en:           Text
+              fr:           Texte
+            type:           text
+          text_color:
+            label:
+              en:           Text color
+              fr:           Couleur de Texte
+            type:           colorlist
+            options:
+              - "#ffffff"
+              - "#f5f5f5"
+              - "#eb1717"
+              - "#222222"
+              - "#353a62"
+            width:          1/2
+          color_bg:
+            label:
+              en:           Background color
+              fr:           Couleur d’arrière plan
+            type:           colorlist
+            options:
+              - "#ffffff"
+              - "#f5f5f5"
+              - "#eb1717"
+              - "#222222"
+              - "#353a62"
+            width:          1/2
+
+      boxhero:
+        label:              Box Hero
+        snippet:            builder/boxhero
+        fields:
+          picture:
+            label:
+              en:           Image
+              fr:           Image
+            type:           image
+          text:
+            label:
+              en:           Text
+              fr:           Texte
+            type:           text
+            icon:           font
+          text_color:
+            label:
+              en:           Text color
+              fr:           Couleur de Texte
+            type:           colorlist
+            options:
+              - "#ffffff"
+              - "#eb1717"
+              - "#222222"
+              - "#353a62"
+              - "#9b59b6"
+              - "#d45353"
+              - "#ffd041"
+              - "#e91e63"
+          link_url:
+            label:
+              en:           Link URL
+              fr:           URL du lien
+            type:           url
+            placeholder:    https://…
+            width:          1/2
+          link_text:
+            label:
+              en:           Link label
+              fr:           Texte du lien
+            type:           text
+            placeholder:
+              en:           Read more
+              fr:           Lire la suite
+            icon:           font
+            width:          1/2
