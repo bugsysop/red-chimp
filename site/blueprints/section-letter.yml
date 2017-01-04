@@ -1,0 +1,129 @@
+title:
+  en:                       Newsletter Index
+  fr:                       Index Lettres
+pages:
+  template:                 letter
+  sort:                     date
+files:
+  type:                     image
+
+fields:
+
+  # -----
+  letter_definition:
+    label:
+      en:                   Newsletter informations
+      fr:                   Informations sur la lettre
+    type:                   headline
+
+  title:
+    label:
+      en:                   Page title
+      fr:                   Titre de la page
+    type:                   text
+    width:                  1/2
+
+  letter_name:
+    label:
+      en:                   Newsletter title
+      fr:                   Nom de la newsletter
+    type:                   text
+    icon:                   envelope-o
+    width:                  1/2
+
+  text:
+    label:
+      en:                   Abstract
+      fr:                   Présentation
+    type:                   textarea
+    icon:                   font
+
+  letter_layout:
+    label:
+      en:                   Design
+      fr:                   Design
+    type:                   headline
+
+  # -----
+  letter_logo:
+    label:
+      en:                   Logo
+      fr:                   Logotype
+    type:                   image
+
+  letter_bgcolor:
+    label:
+      en:                   Background color
+      fr:                   Couleur d’arrière plan
+    type:                   colorlist
+    options:
+      - "#ffffff"
+      - "#f5f5f5"
+      - "#acacac"
+    default:                "#f5f5f5"
+    width:                  1/2
+
+  letter_lcolor:
+    label:
+      en:                   Links color
+      fr:                   Couleur des liens
+    type:                   colorlist
+    options:
+      - "#2c9ab7"
+      - "#f04f4c"
+      - "#1e938b"
+    default:                "#2c9ab7"
+    width:                  1/2
+
+  # -----
+  letter_footer:
+    label:
+      en:                   Newsletter footer
+      fr:                   Pied de page
+    type:                   headline
+
+  footer_text:
+    label:
+      en:                   Content
+      fr:                   Contenu
+    type:                   textarea
+    buttons:
+      - italic
+      - bold
+      - link
+    icon:                   font
+
+  # -----
+  letter_links:
+    label:
+      en:                   Links
+      fr:                   Liens
+    type:                   headline
+
+  letter_tw:
+    label:                  Twitter
+    type:                   text
+    icon:                   twitter
+    placeholder:            Nom d’utilisateur Twitter
+    width:                  1/2
+
+  letter_fb:
+    label:                  Facebook
+    type:                   text
+    icon:                   facebook-square
+    placeholder:            Identifiant page Facebook
+    width:                  1/2
+
+  letter_st:
+    label:                  Seenthis
+    type:                   text
+    icon:                   quote-right
+    placeholder:            Nom d’utilisateur Seenthis
+    width:                  1/2
+
+  letter_gh:
+    label:                  Github
+    type:                   text
+    icon:                   github-alt
+    placeholder:            Nom d’utilisateur Github
+    width:                  1/2
