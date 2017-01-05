@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="x-apple-disable-message-reformatting">
 
-    <title><?= $page->title()->html() ?></title>
+    <title><?= $page->parent()->letter_name()->h() ?></title>
 
     <style type="text/css">
     /* ------------ Reset */
@@ -15,11 +15,17 @@
     img, a img{border:0; outline:none; text-decoration:none;}
     h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
     p{margin: 1em 0;}
-    /* ------------ Framework */
-    .flexibleImage{height:auto;}
+    /* ------------ General */
+    body, #bodyTable{background-color:<?= $page->parent()->letter_bgcolor() ?>;}
+    #bodyCell{padding-top:40px; padding-bottom:40px;}
+    #emailBody{background-color:#ffffff;}
+    h1, h2, h3, h4, h5, h6{color:#202020; font-family:Helvetica,sans-serif; font-size:20px; line-height:110%; text-align:Left;}
     .imageContent, .imageContentLast{padding-bottom:20px;}
     .textContent a, .textContentLast a{color:<?= $page->parent()->letter_lcolor() ?>; text-decoration:underline;}
-    h1, h2, h3, h4, h5, h6{color:#202020; font-family:Helvetica,sans-serif; font-size:20px; line-height:110%; text-align:Left;}
+    .flexibleContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+    .flexibleImage{height:auto;}
+    .buttonContent{color:#ffffff; font-family:Helvetica,sans-serif; font-size:18px; font-weight:bold; line-height:100%; padding:15px; text-align:center;}
+    .buttonContent a{color:#ffffff; display:block; text-decoration:none;}
     /* ------------ Client Specific */
     .ReadMsgBody{width:100%;} .ExternalClass{width:100%;}
     .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height:100%;} /* Force Hotmail/Outlook.com to display line heights normally. */
