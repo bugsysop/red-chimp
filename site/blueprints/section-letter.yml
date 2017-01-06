@@ -51,6 +51,28 @@ fields:
       fr:                   Logotype
     type:                   image
 
+  letter_tfont:
+    label:
+      en:                   Body Text
+      fr:                   Texte courant
+    type:                   select
+    options:
+      Georgia, Times, serif: Serif
+      Verdana, Helvetica, sans-serif: Sans-serif
+    #default:                Sans-serif
+    width:                  1/2
+
+  letter_hfont:
+    label:
+      en:                   Header Text
+      fr:                   Titres
+    type:                   select
+    options:
+      Georgia, Times, serif: Serif
+      Verdana, Helvetica, sans-serif: Sans-serif
+    #default:                Sans-serif
+    width:                  1/2
+
   letter_bgcolor:
     label:
       en:                   Background color

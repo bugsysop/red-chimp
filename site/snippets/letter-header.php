@@ -19,8 +19,9 @@
     body, #bodyTable{background-color:<?= $page->parent()->letter_bgcolor() ?>;}
     #bodyCell{padding-top:40px; padding-bottom:40px;}
     #emailBody{background-color:#ffffff;}
-    h1, h2, h3, h4, h5, h6{color:#202020; font-family:Helvetica,sans-serif; font-size:20px; line-height:110%; text-align:Left;}
+    h1, h2, h3, h4, h5, h6{color:#202020; font-family:<?= $page->parent()->letter_hfont() ?>; font-size:18px; line-height:110%; text-align:Left;}
     .imageContent, .imageContentLast{padding-bottom:20px;}
+    .textContent, .textContentLast{font-family:<?= $page->parent()->letter_tfont() ?>; font-size:16px; line-height:125%; text-align:Left;}
     .textContent a, .textContentLast a{color:<?= $page->parent()->letter_lcolor() ?>; text-decoration:underline;}
     .flexibleContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
     .flexibleImage{height:auto;}
@@ -32,7 +33,7 @@
     table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;}
     #outlook a{padding:0;}
     img{-ms-interpolation-mode: bicubic;}
-    body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+    body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;}
     /* ------------ Media Queries */
     @media only screen and (max-width: 480px){
         body{width:100% !important; min-width:100% !important;}
