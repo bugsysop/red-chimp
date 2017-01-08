@@ -19,7 +19,10 @@
     body, #bodyTable{background-color:<?= $page->parent()->letter_bgcolor() ?>;}
     #bodyCell{padding-top:40px; padding-bottom:40px;}
     #emailBody{background-color:#ffffff;}
-    h1, h2, h3, h4, h5, h6{color:#202020; font-family:<?= $page->parent()->letter_hfont() ?>; font-size:18px; line-height:110%; text-align:Left;}
+    h1, h2, h3, h4, h5, h6{color:#202020; font-family:<?= $page->parent()->letter_hfont() ?>; line-height:110%; text-align:Left;}
+    h1{font-size:20px;}
+    h2{font-size:18px;}
+    h3, h4, h5, h6{font-size:16px;}
     .imageContent, .imageContentLast{padding-bottom:20px;}
     .textContent, .textContentLast{font-family:<?= $page->parent()->letter_tfont() ?>; font-size:16px; line-height:125%; text-align:Left;}
     .textContent a, .textContentLast a{color:<?= $page->parent()->letter_lcolor() ?>; text-decoration:underline;}
