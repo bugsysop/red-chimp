@@ -81,8 +81,10 @@ fields:
     options:
       - "#ffffff"
       - "#f5f5f5"
-      - "#acacac"
-    default:                "#f5f5f5"
+      - "#f4ffe0"
+      - "#e8f4fa"
+      - "#e7e7e7"
+      - "#d1d5d8"
     width:                  1/2
 
   letter_lcolor:
@@ -91,10 +93,12 @@ fields:
       fr:                   Couleur des liens
     type:                   colorlist
     options:
-      - "#2c9ab7"
-      - "#f04f4c"
-      - "#1e938b"
-    default:                "#2c9ab7"
+      - "#1abc9c"
+      - "#2ecc71"
+      - "#3498db"
+      - "#9365b8"
+      - "#e67e22"
+      - "#eb6b56"
     width:                  1/2
 
   # -----

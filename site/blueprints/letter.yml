@@ -215,9 +215,8 @@ fields:
             options:
               - "#ffffff"
               - "#f5f5f5"
-              - "#eb1717"
+              - "#7f8c8d"
               - "#222222"
-              - "#353a62"
             width:          1/2
           color_bg:
             label:
@@ -227,9 +226,10 @@ fields:
             options:
               - "#ffffff"
               - "#f5f5f5"
-              - "#eb1717"
               - "#222222"
-              - "#353a62"
+              - "#1abc9c"
+              - "#9365b8"
+              - "#eb6b56"
             width:          1/2
 
       # -----
