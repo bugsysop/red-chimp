@@ -248,6 +248,15 @@ fields:
               fr:           Texte
             type:           text
             icon:           font
+          text_font:
+            label:
+              en:           Choose font
+              fr:           Police de caractère
+            type:           select
+            options:
+              Georgia, Times, serif: Serif
+              Verdana, Helvetica, sans-serif: Sans-serif
+            width:          1/2
           text_color:
             label:
               en:           Text color
@@ -260,8 +269,7 @@ fields:
               - "#353a62"
               - "#9b59b6"
               - "#d45353"
-              - "#ffd041"
-              - "#e91e63"
+            width:          1/2
           link_url:
             label:
               en:           Link URL
