@@ -128,28 +128,54 @@ fields:
 
   letter_tw:
     label:                  Twitter
-    type:                   text
+    type:                   url
     icon:                   twitter
-    placeholder:            Nom d’utilisateur Twitter
+    placeholder:
+      en:                   Twitter page URL
+      fr:                   URL de la page Twitter
     width:                  1/2
 
   letter_fb:
     label:                  Facebook
-    type:                   text
+    type:                   url
     icon:                   facebook-square
-    placeholder:            Identifiant page Facebook
+    placeholder:
+      en:                   Facebook page URL
+      fr:                   URL de la page Facebook
     width:                  1/2
 
-  letter_st:
-    label:                  Seenthis
-    type:                   text
-    icon:                   quote-right
-    placeholder:            Nom d’utilisateur Seenthis
+  letter_gp:
+    label:                  Google+
+    type:                   url
+    icon:                   google-plus
+    placeholder:
+      en:                   Google+ page URL
+      fr:                   URL de la page Google+
+    width:                  1/2
+
+  letter_ig:
+    label:                  Instagram
+    type:                   url
+    icon:                   instagram
+    placeholder:
+      en:                   Instagram page URL
+      fr:                   URL de la page Instagram
     width:                  1/2
 
   letter_gh:
     label:                  Github
-    type:                   text
+    type:                   url
     icon:                   github-alt
-    placeholder:            Nom d’utilisateur Github
+    placeholder:
+      en:                   Github page URL
+      fr:                   URL de la page Github
+    width:                  1/2
+
+  letter_st:
+    label:                  Seenthis
+    type:                   url
+    icon:                   quote-right
+    placeholder:
+      en:                   Seenthis page URL
+      fr:                   URL de la page Seenthis
     width:                  1/2
