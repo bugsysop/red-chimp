@@ -17,7 +17,7 @@ The editing dispositive is build on the [Builder Field](https://github.com/TimOe
 
 ![Preview in Panel](./doc/images/screencapture-red-chimp-ui-03.png)
 
-The templates produce a responsive HTML email, based on a derivative of “modular patterns markup” of the [Email Bluprints](https://github.com/mailchimp/email-blueprints) developed by MailChimp.
+The templates produce a responsive HTML email, based on a derivative of “modular patterns markup” of the [Email Blueprints](https://github.com/mailchimp/email-blueprints) developed by MailChimp.
 
 No demo, but two screen captures : [desktop](doc/images/screencapture-red-chimp-mail.png) email view and [mobile](doc/images/screencapture-red-chimp-mobile.png) email view.
 
