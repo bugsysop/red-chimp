@@ -12,7 +12,7 @@ fields:
       en:                   Title
       fr:                   Titre
     type:                   text
-    width:                  2/5
+    width:                  3/5
 
   letter_number:
     label:
@@ -28,7 +28,7 @@ fields:
       fr:                   Date de publication
     type:                   date
     format:                 DD/MM/YYYY
-    width:                  2/5
+    width:                  1/5
 
   builder:
     label:
@@ -199,7 +199,7 @@ fields:
 
       # -----
       boxtitle:
-        label:              Box Titre
+        label:              Section
         snippet:            builder/boxtitle
         fields:
           text:
@@ -234,7 +234,7 @@ fields:
 
       # -----
       boxhero:
-        label:              Box Hero
+        label:              Hero
         snippet:            builder/boxhero
         fields:
           picture:
@@ -283,7 +283,68 @@ fields:
               fr:           Texte du lien
             type:           text
             placeholder:
-              en:           Read more
-              fr:           Lire la suite
+              en:           More…
+              fr:           Plus…
+            icon:           font
+            width:          1/2
+
+      # -----
+      boxbanner:
+        label:              Banner
+        snippet:            builder/boxbanner
+        fields:
+          text:
+            label:
+              en:           Text
+              fr:           Texte
+            type:           text
+            icon:           font
+          text_font:
+            label:
+              en:           Choose font
+              fr:           Police de caractère
+            type:           select
+            options:
+              Georgia, Times, serif: Serif
+              Verdana, Helvetica, sans-serif: Sans-serif
+            #width:          1/2
+          text_color:
+            label:
+              en:           Text color
+              fr:           Couleur de texte
+            type:           colorlist
+            options:
+              - "#ffffff"
+              - "#ecf0f1"
+              - "#222222"
+            width:          1/2
+          color_bg:
+            label:
+              en:           Background color
+              fr:           Couleur de fond
+            type:           colorlist
+            options:
+              - "#1abc9c"
+              - "#3498db"
+              - "#f1c40f"
+              - "#e74c3c"
+              - "#34495e"
+              - "#222222"
+            width:          1/2
+          link_url:
+            label:
+              en:           Link URL
+              fr:           URL du lien
+            type:           url
+            placeholder:    https://…
+            width:          1/2
+          link_text:
+            label:
+              en:           Link label
+              fr:           Texte du lien
+            type:           text
+            placeholder:
+              en:           More…
+              fr:           Plus…
             icon:           font
             width:          1/2
