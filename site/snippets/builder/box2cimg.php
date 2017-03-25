@@ -8,7 +8,7 @@
                         <tr><td class="imageContent" valign="top" style="font-family:<?= $page->parent()->letter_tfont() ?>; font-size:16px; line-height:125%; text-align:Left; color:#404040; padding-bottom:20px;">
 
                           <?php if ($data->img_c1()->isNotEmpty()): ?>
-                          <img src="<?= $page->image($data->img_c1())->url() ?>" width="100%" class="flexibleImage" style="max-width:480px;" />
+                          <img src="<?= $page->image($data->img_c1())->resize(260,173)->url() ?>" width="100%" class="flexibleImage" style="max-width:480px;" />
                           <?php endif ?>
 
                           </td></td>
@@ -22,7 +22,7 @@
                           <tr><td class="imageContent" valign="top" style="font-family:<?= $page->parent()->letter_tfont() ?>; font-size:16px; line-height:125%; text-align:Left; color:#404040; padding-bottom:20px;">
 
                           <?php if ($data->img_c2()->isNotEmpty()): ?>
-                          <img src="<?= $page->image($data->img_c2())->url() ?>" width="100%" class="flexibleImage" style="max-width:480px;" />
+                          <img src="<?= $page->image($data->img_c2())->resize(260,173)->url() ?>" width="100%" class="flexibleImage" style="max-width:480px;" />
                           <?php endif ?>
 
                           </td></td>
