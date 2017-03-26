@@ -7,8 +7,9 @@
                         <table class="flexibleContainer" align="Left" border="0" cellpadding="0" cellspacing="0" width="260" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tr><td class="imageContent" valign="top" style="font-family:<?= $page->parent()->letter_tfont() ?>; font-size:16px; line-height:125%; text-align:Left; color:#404040; padding-bottom:20px;">
 
-                          <?php if ($data->img_c1()->isNotEmpty()): ?>
-                          <img src="<?= $page->image($data->img_c1())->resize(260,173)->url() ?>" width="100%" class="flexibleImage" style="max-width:480px;" />
+                          <?php $image = $page->image($data->img_c1()); ?>
+                          <?php if($image): ?>
+                          <img src="<?= $image->resize(260,173)->url() ?>" width="100%" class="flexibleImage" style="max-width:480px;" />
                           <?php endif ?>
 
                           </td></td>
@@ -21,8 +22,9 @@
                           <table class="flexibleContainer" align="Right" border="0" cellpadding="0" cellspacing="0" width="260" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                           <tr><td class="imageContent" valign="top" style="font-family:<?= $page->parent()->letter_tfont() ?>; font-size:16px; line-height:125%; text-align:Left; color:#404040; padding-bottom:20px;">
 
-                          <?php if ($data->img_c2()->isNotEmpty()): ?>
-                          <img src="<?= $page->image($data->img_c2())->resize(260,173)->url() ?>" width="100%" class="flexibleImage" style="max-width:480px;" />
+                          <?php $image = $page->image($data->img_c2()); ?>
+                          <?php if($image): ?>
+                          <img src="<?= $image->resize(260,173)->url() ?>" width="100%" class="flexibleImage" style="max-width:480px;" />
                           <?php endif ?>
 
                           </td></td>

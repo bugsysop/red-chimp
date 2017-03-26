@@ -6,9 +6,10 @@
                           <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                           <tr><td class="imageContent"  valign="top" style="font-family: <?= $page->parent()->letter_tfont() ?>;font-size: 16px;color: #404040;line-height: 125%;text-align: Left;padding-bottom: 20px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 
-                          <?php if ($data->img()->isNotEmpty()): ?>
-                          <img src="<?= $page->image($data->img())->url() ?>" width="560" class="flexibleImage" style="max-width:560px;" />
-                          <?php endif ?>
+                            <?php $image = $page->image($data->img()); ?>
+                            <?php if($image): ?>
+                            <img src="<?= $image->url() ?>" width="560" class="flexibleImage" style="max-width:560px;" />
+                            <?php endif ?>
 
                           </td></tr>
                           <tr><td class="textContent" valign="top" style="font-family: <?= $page->parent()->letter_tfont() ?>;font-size: 16px;color: #404040;line-height: 125%;text-align: Left;padding-bottom: 20px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
