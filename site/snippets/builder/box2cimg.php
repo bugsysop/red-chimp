@@ -16,7 +16,9 @@
                           <tr><td class="textContent"  valign="top" style="font-family:<?= $page->parent()->letter_tfont() ?>; font-size:16px; line-height:125%; text-align:Left; color:#404040; padding-bottom:20px;">
 
                           <?= $data->text_c1()->kt() ?>
+                          <?php if($data->link_text_c1()->isNotEmpty()): ?>
                           <p><a href="<?= $data->link_url_c1() ?>"><?= $data->link_text_c1()->h() ?>&nbsp;&rarr;</a></p>
+                          <?php endif ?>
 
                           </td></tr></table>
                           <table class="flexibleContainer" align="Right" border="0" cellpadding="0" cellspacing="0" width="260" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
@@ -31,8 +33,10 @@
                           <tr><td class="textContent"  valign="top" style="font-family:<?= $page->parent()->letter_tfont() ?>; font-size:16px; line-height:125%; text-align:Left; color:#404040; padding-bottom:20px;">
 
                           <?= $data->text_c2()->kt() ?>
-
+                          <?php if($data->link_text_c2()->isNotEmpty()): ?>
                           <p><a href="<?= $data->link_url_c2() ?>"><?= $data->link_text_c2()->h() ?>&nbsp;&rarr;</a></p>
+                          <?php endif ?>
+
                           </td></tr></table>
 
                     </td></tr></table>

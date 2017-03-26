@@ -7,7 +7,9 @@
                         <tr><td class="textContent" valign="top" style="font-family: <?= $page->parent()->letter_tfont() ?>;font-size: 16px;color: #404040;line-height: 125%;text-align: Left;padding-bottom: 20px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 
                         <?= $data->text()->kt() ?>
+                        <?php if($data->link_text()->isNotEmpty()): ?>
                         <p><a href="<?= $data->link_url() ?>"><?= $data->link_text()->h() ?>&nbsp;&rarr;</a></p>
+                        <?php endif ?>
 
                         </td></tr>
                         </table>
