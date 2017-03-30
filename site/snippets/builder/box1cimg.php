@@ -8,7 +8,7 @@
 
                             <?php $image = $page->image($data->img()); ?>
                             <?php if($image): ?>
-                            <img src="<?= $image->url() ?>" width="560" class="flexibleImage" style="max-width:560px;" />
+                            <img src="<?= $image->resize(560)->url() ?>" width="560" class="flexibleImage" style="max-width:560px;" />
                             <?php endif ?>
 
                           </td></tr>
